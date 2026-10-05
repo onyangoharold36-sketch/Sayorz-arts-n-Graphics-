@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sayorz Arts n' Graphics</title>
+  <style>
+    :root { --bg: #121212; --card: #1e1e1e; --text: #e0e0e0; --accent: #00adb5; }
+    body { background: var(--bg); color: var(--text); font-family: system-ui, sans-serif; margin: 0; padding: 20px; }
+    h1 { text-align: center; color: #fff; margin-bottom: 8px; }
+    p.tagline { text-align: center; color: var(--accent); margin-top: 0; margin-bottom: 30px; font-weight: bold; }
+    .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; max-width: 1200px; margin: 0 auto; }
+    .card { background: var(--card); border-radius: 8px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.3); }
+    .card img { width: 100%; height: auto; display: block; }
+    .card-info { padding: 12px; }
+    .card-info h3 { margin: 0 0 6px 0; font-size: 1.1rem; }
+    .card-info p { margin: 0; font-size: 0.9rem; color: #aaa; }
+  </style>
+</head>
+<body>
+  <h1>Sayorz Arts n' Graphics</h1>
+  <p class="tagline">Custom Art, Photography & Visuals</p>
+  <div class="gallery">
+    <div class="card">
+      <img src="images/art1.jpg" alt="Custom Drawing">
+      <div class="card-info">
+        <h3>Vector Concept Art</h3>
+        <p>Drawn & customized on mobile.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
